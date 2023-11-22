@@ -11,6 +11,13 @@
     align-items: center;
 }
 
+.nav_menu:hover{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-color: #D01C28;
+
+}
+
 .menu{
     display: flex;
     list-style: none;

@@ -6,14 +6,14 @@ const Navbar = () => {
     <header>
         <div className="nav">
             <div className="logo">
-                <img src="/assets/logo.png" alt="logo" />
+                <img src="./assets/logo.png" alt="logo" />
             </div>
 
             <ul className='menu'>
-                <li href="#">Home</li>
-                <li href="#">Location</li>
-                <li href="#">About</li>
-                <li href="#">Contact</li>
+                <li className='nav_menu' href="#">Home</li>
+                <li className='nav_menu' href="#">Location</li>
+                <li className='nav_menu' href="#">About</li>
+                <li className='nav_menu' href="#">Contact</li>
             </ul>
 
             <button className="btn_login">Login</button>
