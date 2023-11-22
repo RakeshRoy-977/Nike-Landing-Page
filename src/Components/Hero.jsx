@@ -16,13 +16,13 @@ const Hero = () => {
                 </div>
                 <p className='avaliable_sec_text'>Also Available on</p>
                 <div className="avaliable_sec">
-                    <img src="/assets/amazon.png" alt="amazon icon" />
-                    <img src="/assets/flipkart.png" alt="flipkart icon" />
+                    <img src="./assets/amazon.png" alt="amazon icon" />
+                    <img src="./assets/flipkart.png" alt="flipkart icon" />
                 </div>
 
             </div>
             <div className="right">
-                <img src="public/assets/shoe_image.png" alt="shoes_pic" />
+                <img src="./assets/shoe_image.png" alt="shoes_pic" />
             </div>
         
         </section>
