@@ -1,0 +1,106 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    cursor: pointer;
+}
+
+.Hero{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    margin: 0 auto;
+    width: 1125px;
+    height: 80vh;
+}
+
+.hero_text{
+    width: 595px;
+    height: 306px;
+
+    font-family: Poppins;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 102px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sub_hero_text{
+    width: 404px;
+    height: 91px;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.btn_sec{
+    display: flex;
+    gap: 40px;
+}
+.shopNow{
+    color: white;
+    background-color: #D01C28;
+    border: none;
+    width: 150px;
+    height: 41px;
+    padding: 6px, 16px, 6px, 16px;
+    
+
+}
+.Category{
+
+    width: 150px;
+    height: 41px;
+    padding: 6px, 16px, 6px, 16px;
+}
+.btn_login{
+    color: white;
+    background-color: #D01C28;
+    border: none;
+    width: 75px;
+    height: 31px;
+    padding: 6px, 16px, 6px, 16px;
+}
+
+.avaliable_sec_text{
+    color: #5A5959;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.avaliable_sec{
+    display: flex;
+    width: 80px;
+    height: 32px;
+    gap: 16px;
+
+}
+
+.right{
+    width: 530px;
+    height: 487.06px;
+
+}
